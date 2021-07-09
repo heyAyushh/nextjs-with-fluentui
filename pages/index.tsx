@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { NextPage } from 'next'
-import profilePic from "/fluentui.png"
+import profilePic from "../public/fluentui.png"
 import { Stack, Text, Link, FontWeights, PrimaryButton } from '@fluentui/react'
 import Image from 'next/image'
 const baseStyle = {
@@ -25,7 +25,7 @@ const horizontalGapStackTokens = {
 const IndexPage: NextPage = () => (
   <Stack horizontalAlign="center" verticalAlign="center" verticalFill styles={baseStyle} className="App" tokens={verticalGapStackTokens}>
     {/* <img src="/fluentui.png" alt="logo" style={{ width: '100%', maxWidth: 768 }} /> */}
-    <Image src={profilePic} alt="logo" width='768' placeholder="blur" />
+    <Image src={profilePic} alt="logo" placeholder="blur" />
     <Text variant="xxLarge" styles={boldStyle}>
       Welcome to Your Fluent UI App
     </Text>
