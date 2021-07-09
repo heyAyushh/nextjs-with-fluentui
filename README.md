@@ -6,7 +6,7 @@ This example shows how to use Microsoft's Fluent UI design system within a Next.
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/resir014/nextjs-fluentui-quickstart)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/heyAyushh/nextjs-with-fluentui)
 
 ## How to use
 
